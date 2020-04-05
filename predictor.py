@@ -57,7 +57,7 @@ def main():
 
 	if choices == 'EDA':
 		st.subheader("EDA")
-		data = load_data('datasets/car_dataset.csv')
+		data = load_data('car_dataset.csv')
 		st.dataframe(data.head(5))
 
 		if st.checkbox("Show Summary of Dataset"):
